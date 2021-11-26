@@ -2,6 +2,8 @@
  My personal webpage
 
  > The most damaging phrase in a language is Its always been done this way- Grace Hopper
+
+
 Visualised changes for the next iteration:
 1. Add the project and about pages, if possible blogs
 2. In the projects tab, add cards in CSS for the UI
