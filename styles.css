@@ -1,0 +1,109 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Outfit:wght@200&display=swap');
+
+
+.everythingexceptribbon{
+    font-family:'Outfit', sans-serif;   
+    background: rgb(223, 248, 166);
+    color:rgb(74, 105, 6);
+    
+}
+/*.border{
+    border-style: dotted;
+    border-width:3px;S
+}*/
+
+.titlebox{
+    background-color:rgb(150, 247, 131);
+    border-radius: 25px;
+    padding: 1rem;
+}
+.box2{
+    background-color:rgb(241, 195, 173);
+    border-radius: 25px;
+}
+.introtext{
+    padding-left: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+}
+
+.scroll{
+    text-align:right;
+}
+
+.link2{
+    color:sienna;
+    border-inline-color: white;
+    text-decoration: none;
+    font-family: cursive;
+}
+.footer{
+    text-align:center;
+    border-radius: 25px;
+    color:rgb(241, 245, 248);
+    background-color: rgb(67, 80, 94);
+
+}
+.footer .inlineitem{
+    display:inline;
+    text-size-adjust: 14px;
+    padding-inline: 2rem;
+}
+.ribbon .inlineitem{
+    display:inline;
+    text-size-adjust: 14px;
+    padding-inline: 2rem;
+    font-family: 'Estonia', cursive; 
+    font-size:30px;   
+}
+.ribbon {
+    font-size: 16px !important;
+    /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+   
+    width: 50%;
+    border-radius: 0.5rem;   
+    position: relative;
+    background: #ba89b6;
+    color: #fff;
+    text-align: center;
+    padding: 1em 2em; /* Adjust to suit */
+    margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+   }
+   .ribbon:before, .ribbon:after {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: -1em;
+    border: 1.5em solid #986794;
+    z-index: -1;
+   }
+   .ribbon:before {
+    left: -2em;
+    border-right-width: 1.5em;
+    border-left-color: transparent;
+   }
+   .ribbon:after {
+    right: -2em;
+    border-left-width: 1.5em;
+    border-right-color: transparent;
+   }
+   .ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+    content: "";
+    position: absolute;
+    display: block;
+    border-style: solid;
+    border-color: #804f7c transparent transparent transparent;
+    bottom: -1em;
+   }
+   .ribbon .ribbon-content:before {
+    left: 0;
+    border-width: 1em 0 0 1em;
+   }
+   .ribbon .ribbon-content:after {
+    right: 0;
+    border-width: 1em 1em 0 0;
+   }
+
