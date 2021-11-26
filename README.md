@@ -10,3 +10,4 @@ Visualised changes for the next iteration:
 3. Add the social links/icons
 4. Add the scrolling feature to the 'Let us skip to the good part'
 5. Add a visitor counter and go to top/bottom areas.
+6. Either go with a business card or google type design
